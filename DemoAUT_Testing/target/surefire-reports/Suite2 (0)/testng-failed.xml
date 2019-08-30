@@ -6,9 +6,11 @@
       <class name="com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage">
         <methods>
           <include name="setUp"/>
+          <include name="selectFlight"/>
           <include name="tearDown"/>
           <include name="chooseWebDriver"/>
-          <include name="loginPageTest"/>
+          <include name="flightDetails"/>
+          <include name="bookFlight"/>
         </methods>
       </class> <!-- com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage -->
     </classes>

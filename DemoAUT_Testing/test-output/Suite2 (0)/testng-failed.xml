@@ -8,6 +8,7 @@
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="chooseWebDriver"/>
+          <include name="flightDetails"/>
           <include name="loginPageTest"/>
         </methods>
       </class> <!-- com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage -->

@@ -1,17 +1,43 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.577 s <<< FAILURE! - in TestSuite
-loginPageTest(com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage)  Time elapsed: 5.344 s  <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 94.28 s <<< FAILURE! - in TestSuite
+flightDetails(com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage)  Time elapsed: 8.122 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"*[name='userName']"}
-  (Session info: chrome=76.0.3809.100)
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='roundtrip']"}
+  (Session info: chrome=76.0.3809.132)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c4e64d0e1f0a9c3cbd639f9e0557a622
-*** Element info: {Using=name, value=userName}
-	at com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage.loginPageTest(TestingFlightDetailsPage.java:33)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db54b38b2d57951ae0f795378cd8bd26
+*** Element info: {Using=xpath, value=//input[@value='roundtrip']}
+	at com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage.flightDetails(TestingFlightDetailsPage.java:50)
+
+selectFlight(com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage)  Time elapsed: 5.104 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Blue Skies Airlines$361$271$7:10']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db54b38b2d57951ae0f795378cd8bd26
+*** Element info: {Using=xpath, value=//input[@value='Blue Skies Airlines$361$271$7:10']}
+	at com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage.selectFlight(TestingFlightDetailsPage.java:166)
+
+bookFlight(com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage)  Time elapsed: 5.089 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='passFirst0']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db54b38b2d57951ae0f795378cd8bd26
+*** Element info: {Using=name, value=passFirst0}
+	at com.atmecs.demoaut.flightdetails.TestingFlightDetailsPage.bookFlight(TestingFlightDetailsPage.java:112)
 

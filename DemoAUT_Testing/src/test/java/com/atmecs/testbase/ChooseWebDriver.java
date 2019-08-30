@@ -12,18 +12,21 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeSuite;
 
+import com.atmecs.demo_aut.constants.File_Path;
+
 public class ChooseWebDriver {
 	String browserName;
 	String url;
 	public static Properties prop;
 	static public WebDriver driver;
+	File_Path path = new File_Path();
 
 	@BeforeSuite
 	public void chooseWebDriver() {
 		InputStream input = null;
 
 		try {
-			input = new FileInputStream("./src/test/java/com.atmecs.testdata/config.properties");
+			input = new FileInputStream(path.getFileName(3));
 		} catch (FileNotFoundException e) {
 
 			System.out.println("File not found");
