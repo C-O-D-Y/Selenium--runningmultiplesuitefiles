@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-03T10:12:48Z" name="Default suite" finished-at="2019-09-03T10:13:11Z" duration-ms="22291">
+    <groups>
+    </groups>
+    <test started-at="2019-09-03T10:12:48Z" name="Default test" finished-at="2019-09-03T10:13:11Z" duration-ms="22291">
+      <class name="com.atmecs.testScripts.Book_OneWay_Ticket">
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.Book_OneWay_Ticket@2a32de6c]" started-at="2019-09-03T10:12:33Z" name="intitailizeBrowser" finished-at="2019-09-03T10:12:48Z" duration-ms="15210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method signature="homePage()[pri:1, instance:com.atmecs.testScripts.Book_OneWay_Ticket@2a32de6c]" started-at="2019-09-03T10:12:48Z" name="homePage" finished-at="2019-09-03T10:12:59Z" duration-ms="10756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="selectFlightAndReview()[pri:2, instance:com.atmecs.testScripts.Book_OneWay_Ticket@2a32de6c]" started-at="2019-09-03T10:12:59Z" name="selectFlightAndReview" finished-at="2019-09-03T10:13:11Z" duration-ms="11499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightAndReview -->
+      </class> <!-- com.atmecs.testScripts.Book_OneWay_Ticket -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
